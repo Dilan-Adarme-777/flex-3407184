@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar_logo{
+    display: flex;
+    align-items: center;
+
+    gap: 15PX;
+    font-size: 24PX;
+    font-weight: bold;
+}
+
+.navbar_logo_img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+}
+.navbar_menu_item{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+.navbar_logo_img_inicio_de_sesion{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-top: 20px;
+}
