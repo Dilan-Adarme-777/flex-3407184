@@ -9,4 +9,26 @@
 body {
     font-family: Arial;
     background-color: lightblue;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    flex-wrap: wrap-reverse;
+    align-items: center;
+
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: black solid 3px;
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border: black dotted 2px;
 }
